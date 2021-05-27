@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <link href="//db.onlinewebfonts.com/c/23fe921c6f711d75677bd6b351ac9418?family=Daimler+CS" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/0de280340df9c67a5d4e8fb82310b4ad?family=Daimler+CAC" rel="stylesheet" type="text/css"/>
+    <title>WebJars Demo</title>
+    <link rel="stylesheet"
+          href="/css/main.css"/>
+</head>
+<body>
+<main>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/img/mb_star.svg" alt="" width="72" height="72">
+        <h1 class="display-5 fw-bold daimler-font-serif">Hallo <span th:text="${name}"></span>. <br> Senior Fullstack Developer gesucht?</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Dann sehen Sie hier etwas Werbung in eigener Sache :) Ein kleiner Auszug von dem, was ich mitbringe.</p>
+        </div>
+    </div>
+
+    <div class="container"><br/>
+
+        <section class="timeline">
+            <ul>
+                <li>
+                    <div>
+                        <time>2007 - 2010</time>
+                        <div class="discovery">
+                            <h4 class="daimler-font-serif">Berufsakademie, Dresden — Diplom</h4>
+                            <p>
+                                Dipl. Ing. (BA) für Informationstechnologie
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2010 - 2017</time>
+                        <div class="discovery">
+                            <h4 class="daimler-font-serif">SYSTEMA GmbH / Globalfoundries — Software Engineer</h4>
+                            <p>
+                                Projektleitung und Umsetzung Globalfoundries Defekt-Abweichungsmanagement und Mitarbeit an Architektur und
+                                Implementierung Workflow Management RS.
+                                Entwicklung, Betrieb und Monitoring einer webbasierten Multi-Monitor Trainingsumgebung für Defekt-Erkennung FAB 1
+                                Dresden.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2015 - 2017</time>
+                        <div class="discovery">
+                            <h4 class="daimler-font-serif">SYSTEMA GmbH / Bosch — Software Engineer</h4>
+                            <p>
+                                Entwicklung eines Backend Gateways zur Bereitstellung einer REST API der Produktionsdatenweiterleitung durch Anbindung
+                                an den BOSCH Active MQ. Umsetzung eines AngularJS basierten Prototypen als Ablösung der Produktionsdatenüberwachung
+                                durch eine Swing Java-Anwendung.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>OCT 2017 - OCT 2018</time>
+                        <div class="discovery">
+                            <h4>Thalia Bücher GmbH, Berlin — Senior Software Engineer</h4>
+                            <p>
+                                Entwicklung, Betrieb und Monitoring der Backend Services für die Thalia Android/iOS App - Mobile client API / Push
+                                Notification Service / Device Management
+                                DevOps Tätigkeiten (Erstellen von Pipelines, Server Provisionierung mit Foreman, Umgebungskonfiguration mittels
+                                Ansible)
+                                Entwicklung eines Voice Skills für Alexa / Google Assistant
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>OCT 2018 - JUN 2020</time>
+                        <div class="discovery">
+                            <h4>GLS Ecom Lab, Berlin — Senior Software Engineer</h4>
+                            <p>
+                                Entwicklung der REST Services für die Logistik App Second Screen zur Unterstützung der GLS Paketlieferanten mittels
+                                dynamischer Routenführung. Entwicklung der Datenladeprozesse zur Verarbeitung der täglichen Paket- und Eventdaten der
+                                legacy GLS IT Infrastruktur.
+                                Mitglied des dreiköpfigen Kernentwicklerteams zur Ausarbeitung und Umsetzung der Tech-Roadmap.
+                                Neuentwicklung der REST basierten blocking Kommunikation des GLS Second Screen Prototypen hin zur einer Job-basierten
+                                asynchronen Datenkommunikation in einzelnen Microservices für den Produktivgang und die Ramp-up Phase Deutschland.
+                                Neuentwicklung und Refactoring der mehrer Microservices auf Spring Boot in Verbindung mit Kotlin.
+                                DevOps Tätigkeiten/ Entwicklung der AWS Infrastruktur basierend auf Cloudformation und später AWS CDK.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>seit JUL 2020</time>
+                        <div class="discovery">
+                            <h1>Körber Supply Chain Software GmbH, Dresden — Senior Consultant</h1>
+                            <p>
+                                Konzeption und Implementierung der bisherigen PL/SQL Business Logiken hin zu Microservices basierend auf Spring Boot.
+                                Absicherung der APIs mittels verschiedener Security Standards wie zB OAuth 2 in Form einen hoch performanten
+                                Authorization Server Architektur unter Nutzung von Spring Security.
+                                Übernahme der DevOps Tätigkeiten sowie Setup des Build Systems mit Jenkins und Artifactory.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>OCT 2021 -
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="tombstone" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-tombstone fa-w-16 fa-3x"
+                                 style="width: 16px; margin-left: 10px;">
+                                <path fill="currentColor"
+                                      d="M336 160h-56v-48c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v48h-56c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h56v128c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V208h56c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm160 304h-48V192C448 85.96 362.04 0 256 0S64 85.96 64 192v272H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h480c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-96 0H112V192c0-79.4 64.6-144 144-144s144 64.6 144 144v272z"
+                                      class=""></path>
+                            </svg>
+                        </time>
+                        <div class="discovery">
+                            <h4 id="hire-target" class="typewrite" data-period="200" data-type='["Senior Fullstack Developer - Daimler"]'></h4>
+                            <p id="hire-content">
+                                <button class="btn" id="hire-btn"
+                                        style="letter-spacing: 2px; background-color: teal !important; border-radius: 200px; height: 100px; width: 100px; color: white; font-family: 'Daimler CAC'; font-weight: bold;">
+                                    Hire!
+                                </button>
+                            </p>
+                            <p class="typewrite" data-period="200" data-type='["Creating awesome cloud applications!"]'></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+</main>
+</body>
+</html>
