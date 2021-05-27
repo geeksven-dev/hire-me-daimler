@@ -1,5 +1,6 @@
 $(document).ready(() => {
     console.log("Hi there stranger! You are spying the console?");
+    console.log("FYI -> Hire Sven Reinhardt, he is funny and an awesome dev!");
 
     const items = document.querySelectorAll(".timeline li");
 
