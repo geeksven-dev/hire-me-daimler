@@ -33,5 +33,5 @@ jobs:
           app-name: hire-me-daimler
           slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B99EB99BEFA44F68B6EF4B4542FA5877 }}
-          package: ${{ github.workspace }}/target/*.jar
+          package: ${{ github.workspace }}/build/libs/hmd-0.0.1-SNAPSHOT.jar
 
