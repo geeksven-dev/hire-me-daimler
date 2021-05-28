@@ -34,7 +34,7 @@ $(document).ready(() => {
         let hire = $("#hire-target");
         hire.empty();
         hire.append("<h4 class=\"daimler-font-serif\">Fullstack Developer - Daimler</h4>");
-        hire.append("<p class=\"typewriter\">Creating awesome cloud applications!</p>");
+        hire.append("<p class=\"typewriter\">Creating awesome cloud apps!</p>");
 
     });
 
